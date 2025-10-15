@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     # 这个函数返回一个字符串，这个字符串就是用户在浏览器上看到的内容
-    return 'Hello from Jenkins CI/CD v2.0!' # 以后你可以修改这里的版本号来测试
+    return 'Hello from Jenkins CI/CD v3.0! 2025/10/15' # 以后你可以修改这里的版本号来测试
 
 # 这是一个标准的 Python 写法，意思是如果这个文件是直接被运行的，
 # 而不是被其他文件导入的，就执行下面的代码
